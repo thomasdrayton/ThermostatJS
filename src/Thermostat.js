@@ -1,3 +1,5 @@
+const MAXTEMP
+
 function Thermostat() {
   this.temp = 20;
   this.powersaver = [true,false];
@@ -19,7 +21,12 @@ Thermostat.prototype.powermodeswitch = function() {
   // this.powersaver[0], this.powersaver[1] = this.powersaver[1], this.powersaver[0]
 }
 
-Thermostat.prototype.checkstatus = function() {
+Thermostat.prototype.check_status = function() {
   if(this.powersaver[0]) {console.log("On/true")}
   else{console.log("Off/false")}
+}
+
+Thermostat.prototype.set_max_temp = function() {
+  if (this.powersaver[])
+
 }
