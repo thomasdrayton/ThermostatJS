@@ -32,6 +32,7 @@ Thermostat.prototype.see_usage = function(){
   if (this.temp >= 18 && this.temp <= 25) {
     return 'medium-usage';
   }
+    return "high-usage"
 }
 
 Thermostat.prototype.reset = function() {
